@@ -1,0 +1,67 @@
+@import url(https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css);
+@import url(https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css);
+
+
+/* Small user bar */
+.nameTag__37e49 {
+  display: none;
+}
+
+[class*="panels"] [class*="avatarWrapper"] {
+  min-width: unset;
+}
+
+.container__37e49 {
+  gap: var(--space-4) !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+[class*="avatarWrapper__"] {
+  border-radius: 100% !important;
+  width: min-content;
+ 
+ &:hover {
+    background-color: transparent !important;
+ }
+ 
+ & > .avatar__37e49 {
+    width: 30px !important;
+    height: 40px;
+    margin-top: -1px;
+
+    & > svg {
+      width: 39px !important;
+    }  
+  }
+}
+
+/* Expand top panel to top of window */
+.sidebar_c48ade {
+    margin-top: -20px;
+}
+/* remove weird top-left corner */
+.sidebarList_c48ade {
+    border-top-left-radius: 0 !important;
+    border-top: 0px !important;
+}
+/* fix lack of padding on server container*/
+.tutorialContainer__1f388 {
+    padding-top: 0.66rem;
+}
+
+/* Round server icons */
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 50% !important;
+}
+
+/* Fix padding message list -> chat bar */
+.visual-refresh .form_f75fb0 {
+  margin-top: 8px
+}
+
+/* Kinda align chat bar with user info bar*/
+.channelTextArea_f75fb0 {
+  margin-bottom: -7px !important;
+}
