@@ -65,3 +65,13 @@
 .channelTextArea_f75fb0 {
   margin-bottom: -7px !important;
 }
+
+/* Hide upsells in DMs */
+
+/* Hide "nitro", "shop" & "quests" dm buttons */
+[href="/store"], [href="/shop"], [href="/quest-home"] {
+  display: none;
+}
+div.sectionDivider__35e86 {
+  margin-top: 0; /* Remove unnecesery spacing */
+}
