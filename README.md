@@ -19,3 +19,4 @@ Barely any of this is my own work!
 - blackbearftw: Smaller user panel
 - voxel: Expand server list to top of viewport
 - ukriu: Bring back round server icons
+- love_axolotl: DM Upsell removal
