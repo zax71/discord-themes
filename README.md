@@ -15,7 +15,7 @@ Put `https://raw.githubusercontent.com/zax71/discord-themes/refs/heads/main/them
 Barely any of this is my own work!
 
 - nspc911: Typing indicator and similar above chat bar
-- surgedevs: Remove title bar
+- g0d0fninjas: Remove title bar
 - blackbearftw: Smaller user panel
 - voxel: Expand server list to top of viewport
 - ukriu: Bring back round server icons
